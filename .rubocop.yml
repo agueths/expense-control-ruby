@@ -1,0 +1,12 @@
+AllCops:
+  TargetRubyVersion: 3.3.5
+  Exclude:
+    - 'db/schema.rb'
+Style/FrozenStringLiteralComment: 
+  Enabled: false
+
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false
